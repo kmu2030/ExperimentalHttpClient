@@ -77,7 +77,7 @@ The HTTP client has the following restrictions.
 
 Inquiries using HTTP(S) can be written as follows.
 
-```iecsst
+```iecst
     // POST /chat/api/v1 ContentType: application/json
     20:
         IF NewHttpClientTask(
@@ -91,9 +91,10 @@ Inquiries using HTTP(S) can be written as follows.
             SetHttpHeader(Context:=iHttpContext,
                           Key:='X-Api-Key',
                           Value:='xxxxxx');
-            SetContentStr(Context:=iHttpContext,
-                          ContentType:='application/json',
-                          Content:='{"channel":"hell","name":"taker","msg":"Have you played Awaria?"}');
+            SetContentStr(
+                Context:=iHttpContext,
+                ContentType:='application/json',
+                Content:='{"channel":"hell","name":"taker","msg":"Have you played Awaria?"}');
             iPostTick := 0;
             InvokeHttpClientTask(Context:=iHttpContext,
                                  ClientTask:=iHttpClientTask);
