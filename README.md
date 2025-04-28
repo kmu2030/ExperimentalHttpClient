@@ -1,6 +1,6 @@
 <!--
-# Experimental HttpClient for NX/NJ
-これは、OMRON社のNX/NJコントローラ向けのHTTP/1.1クライアントの試験実装です。このHTTPクライアントは機能に不足があり、品質も十分ではありません。しかし、Sysmac StudioとNX/NJコントローラにおいて、実用的なHTTPクライアントをユーザープログラムで実装可能であることを示すものです。Sysmacプロジェクトはいくつかのテストプログラムを含み、実際にBeeceptorのHTTPエコーサーバへ問い合わせを行います。詳細は、[この記事](https://zenn.dev/kitam/articles/125abd8e5a1e9f)を確認してください。
+# Experimental HttpClient for NX
+これは、OMRON社のNXコントローラ向けのHTTP/1.1クライアントの試験実装です。このHTTPクライアントは機能に不足があり、品質も十分ではありません。しかし、Sysmac StudioとNXコントローラにおいて、実用的なHTTPクライアントをユーザープログラムで実装可能であることを示すものです。Sysmacプロジェクトはいくつかのテストプログラムを含み、実際にBeeceptorのHTTPエコーサーバへ問い合わせを行います。詳細は、[この記事](https://zenn.dev/kitam/articles/125abd8e5a1e9f)を確認してください。
 
 HTTPクライアントには以下の制約があります。
 
@@ -67,8 +67,8 @@ HTTP(S)による問い合わせは以下のように記述できます。
         END_CASE;
 ```
 -->
-# Experimental HTTP Client for NX/NJ
-This is an experimental implementation of HTTP/1.1 client for OMRON's NX/NJ controllers. This HTTP client lacks functionality and is not of sufficient quality. However, it shows that it is possible to implement a practical HTTP client with a user program using Sysmac Studio and the NX/NJ controller. The Sysmac project contains several test programs that actually query Beeceptor's HTTP echo server. For details, please check [this article (Japanese)](https://zenn.dev/kitam/articles/125abd8e5a1e9f). 
+# Experimental HTTP Client for NX
+This is an experimental implementation of HTTP/1.1 client for OMRON's NX controllers. This HTTP client lacks functionality and is not of sufficient quality. However, it shows that it is possible to implement a practical HTTP client with a user program using Sysmac Studio and the NX controller. The Sysmac project contains several test programs that actually query Beeceptor's HTTP echo server. For details, please check [this article (Japanese)](https://zenn.dev/kitam/articles/125abd8e5a1e9f). 
 
 The HTTP client has the following restrictions.
 
