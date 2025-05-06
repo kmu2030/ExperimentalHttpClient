@@ -168,7 +168,7 @@ This project was built in the following environment.
 |||
 |-|-|
 |Controller|NX102-9000 Ver 1.64|
-|Sysmac Studio|Ver.1.61|
+|Sysmac Studio|Ver.1.62|
 <!--
 # テストプログラムの使用手順
 Sysmacプロジェクトは、BeeceptorのHTTPエコーサーバへの問い合わせを行うテストプログラム(Test_HttpEcho)を含んでいます。自身の管理下にないネットワークからアクセスする場合、何らかの制約がある可能性があります。可能であれば、制約がないことを確認できるテスト用のネットワークを使用します。
